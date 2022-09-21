@@ -122,3 +122,56 @@ header a:hover{
 .card:hover .overlay{
     opacity: 1;
 }
+
+/*footer style*/
+
+footer{
+    background-color: #1a1a1a;
+}
+
+.container-footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info h2{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.footer-info ul{
+    list-style-type: none;
+}
+
+.footer-info li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-info a{
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.footer-info li:hover{
+    text-decoration: underline;
+}
+
+
+.footer-social p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.footer-social i{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-right: 5px;
+    padding-top: 8px;
+}
